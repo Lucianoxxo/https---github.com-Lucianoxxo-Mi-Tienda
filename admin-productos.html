@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Administrar productos</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="menu">
+
+            <div class="logo">
+                <h1>Administración</h1>
+            </div>
+
+            <ul>
+
+                <li>
+                    <a href="admin.html">Panel</a>
+                </li>
+
+                <li>
+                    <a href="admin-productos.html">
+                        Productos
+                    </a>
+                </li>
+
+                <li>
+                    <a href="admin-usuarios.html">
+                        Usuarios
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <section class="contenido">
+
+            <h2>Administrar productos</h2>
+
+            <form id="formProducto">
+
+                <label>
+                    Nombre del producto:
+                </label>
+
+                <input type="text"
+                       id="nombreProducto">
+
+                <label>
+                    Precio:
+                </label>
+
+                <input type="number"
+                       id="precioProducto">
+
+                <button type="submit">
+                    Agregar producto
+                </button>
+
+            </form>
+
+
+            <h3>Productos registrados</h3>
+
+            <div id="tablaProductos">
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <p>Mi Tienda © 2026</p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

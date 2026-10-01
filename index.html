@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mi Tienda</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <!-- ========================================
+         MENÚ
+    ======================================== -->
+
+    <header>
+
+        <nav>
+
+            <h1>Mi Tienda</h1>
+
+            <ul>
+
+                <li>
+                    <a href="index.html">Inicio</a>
+                </li>
+
+                <li>
+                    <a href="productos.html">Productos</a>
+                </li>
+
+                <li>
+                    <a href="nosotros.html">Nosotros</a>
+                </li>
+
+                <li>
+                    <a href="blogs.html">Blogs</a>
+                </li>
+
+                <li>
+                    <a href="contacto.html">Contacto</a>
+                </li>
+
+                <li>
+                    <a href="login.html">Iniciar sesión</a>
+                </li>
+
+                <li>
+                    <a href="carrito.html">🛒 Carrito</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- ========================================
+         BIENVENIDA
+    ======================================== -->
+
+    <main>
+
+        <section class="hero">
+
+            <h2>Bienvenido a Mi Tienda</h2>
+
+            <p>
+                Encuentra productos tecnológicos para tus necesidades.
+            </p>
+
+            <a href="productos.html" class="boton">
+                Ver productos
+            </a>
+
+        </section>
+
+
+
+        <!-- ========================================
+             PRODUCTOS DESTACADOS
+        ======================================== -->
+
+        <section class="contenido">
+
+            <h2>Productos destacados</h2>
+
+            <p>
+                Conoce algunos de nuestros productos más destacados.
+            </p>
+
+
+            <!--
+                IMPORTANTE:
+                TODOS LOS PRODUCTOS ESTÁN DENTRO
+                DEL MISMO DIV .productos
+            -->
+
+            <div class="productos">
+
+
+                <!-- PRODUCTO 1 -->
+
+                <div class="producto">
+
+                    <img
+                        src="img/teclado.png"
+                        alt="Teclado Redragon"
+                    >
+
+                    <h3>
+                        Teclado Redragon
+                    </h3>
+
+                    <p>
+                        $35.000
+                    </p>
+
+                    <a
+                        href="detalle-producto.html?id=1"
+                        class="boton"
+                    >
+                        Ver producto
+                    </a>
+
+                </div>
+
+
+
+                <!-- PRODUCTO 2 -->
+
+                <div class="producto">
+
+                    <img
+                        src="img/audifonos.png"
+                        alt="Audífonos Blik ANC"
+                    >
+
+                    <h3>
+                        Audífonos Blik ANC
+                    </h3>
+
+                    <p>
+                        $45.000
+                    </p>
+
+                    <a
+                        href="detalle-producto.html?id=2"
+                        class="boton"
+                    >
+                        Ver producto
+                    </a>
+
+                </div>
+
+
+
+                <!-- PRODUCTO 3 -->
+
+                <div class="producto">
+
+                    <img
+                        src="img/parlante.png"
+                        alt="Parlante Blik"
+                    >
+
+                    <h3>
+                        Parlante Blik
+                    </h3>
+
+                    <p>
+                        $50.000
+                    </p>
+
+                    <a
+                        href="detalle-producto.html?id=3"
+                        class="boton"
+                    >
+                        Ver producto
+                    </a>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- ========================================
+         PIE DE PÁGINA
+    ======================================== -->
+
+    <footer>
+
+        <p>
+            &copy; 2026 Mi Tienda - Todos los derechos reservados
+        </p>
+
+    </footer>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
